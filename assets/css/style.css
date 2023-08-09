@@ -13,6 +13,7 @@ body {
 :root {
   /* Colors */
   --primary: #0d263b;
+  --black: #696969;
   --white: rgba(255, 255, 255, 1);
   --blue: rgba(0, 97, 223, 1);
   --gray: rgba(105, 105, 105, 1);
@@ -781,3 +782,221 @@ settings-section {
 
 /* ----------------------- Hero Section End ----------------------- */
 
+.container {
+  /* background-color: turquoise; */
+}
+
+.card{
+  padding: 96px 0 40px;
+ 
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--primary);
+}
+.desc {
+  color: var(--black);
+  text-align: center;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.card__block{
+  outline: 1px solid seagreen;
+  width: 100%;
+}
+
+
+
+.card__item {
+  max-width: 380px;
+  height: 430px;
+  outline: 1px solid #E6E9EC;
+  position: relative;
+  margin: 0px 20px;
+}
+.card__img {
+  width: 100%;
+  max-height: 220px;
+}
+.card__people {
+  border-radius: 100%;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 200px;
+  right: 20px;
+}
+.card__title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #0D263B;
+}
+.card__subtitle {
+  padding-top: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #696969;
+}
+.card__container {
+  padding: 24px 20px 8px 20px;
+}
+.card__info {
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.card__info__item {
+  width: 75px;
+  height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.card__info__item img {
+  width: 19px;
+  height: 19px;
+}
+.card__info__item p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.featured, .forsale {
+  color: #fff;
+  position: absolute;
+  font-size: 10px;
+  width: 73px;
+  height: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.featured {
+  background-color: #0061DF;
+  top: 20px;
+  left: 20px;
+}
+
+.forsale {
+  background-color: #0D263B;
+  top: 20px;
+  right: 20px;
+}
+
+.card__footer {
+  height: 51px;
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid #E6E9EC;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 110px;
+}
+
+.footer__icon {
+  height: 100%;
+}
+
+.old__price {
+  text-decoration: line-through;
+  color: #696969;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.now__price {
+  color: #0D263B;
+  font-weight: bold;
+}
+
+.footer__icon {
+  width: 80px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.footer__icon__item {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer__icon__item :hover {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: #E6E9EC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}

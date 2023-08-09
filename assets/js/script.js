@@ -55,3 +55,11 @@ advancedBlockFooter.addEventListener("click", (e)=>{
 // className: "settings-section__button"
 
 
+// card
+
+$('.card__block').slick({
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    arrows: false,
+    dots: false
+});
