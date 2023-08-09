@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Houzing</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar-wrapper">
+                <div class="logo logo__humburger">
+                    <img src="./assets/icons/hamburger-menu.svg" alt="Houzing">
+                </div>
+                <div class="logo">
+                    <img src="./assets/icons/logo.svg" alt="Houzing" class="logo__img">
+                </div>
+                <nav class="navbar-wrappe__box">
+                    <ul class="navbar-wrappe__list">
+                        <li class="navbar-wrappe__item">Home</li>
+                        <li class="navbar-wrappe__item">Properties</li>
+                        <li class="navbar-wrappe__item">Contacts</li>
+                    </ul>
+                </nav>
+                <div class="user-block">
+                  <div class="user"><i><img src="./assets/icons/user.svg" alt="User" class="user"></i></div>
+                  <div class="user__list none">
+                    <div class="user__close none"></div>
+                    <ul>
+                      <li class="none"><img src="./assets/icons/close.svg" alt="close"></li>
+                      <li><a href="#">My Profile</a></li>
+                      <li><a href="#">My Properties</a></li>
+                      <li><a href="#">Favourites</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div><!-- end navbar__wrapper" -->
+
+            <div class="mobile-menu none">
+
+                <div class="close-mobile-menu"><img src="./assets/icons/close.svg"/></div>
+                <div class="mobile-menu__wrapper">
+
+                  <nav class="mobile__navigation">
+
+                        <ul class="mobile__nav-items">
+                            <li class="mobile__nav-item">
+                                <a href="#" class="mobile__nav-link">Home</a>
+                            </li>
+                            <li class="mobile__nav-item">
+                                <a href="#" class="mobile__nav-link">Properties</a>
+                            </li>
+                            <li class="mobile__nav-item">
+                                <a href="#" class="mobile__nav-link">Contacts</a>
+                            </li>
+                        </ul>
+
+                    
+                        <ul class="mobile__social-items">
+                            <li>
+                                <img src="./assets/icons/facebook.svg" alt="facebook" />
+                            </li>
+                            <li>
+                                <img src="./assets/icons/twitter.svg" alt="twitter" />
+                            </li>
+                            <li>
+                                <img src="./assets/icons/instagram.svg" alt="instagram" />
+                            </li>
+                            <li>
+                                <img src="./assets/icons/linkedin.svg" alt="linkedin" />
+                            </li>
+                        </ul>
+                  </nav>
+        
+                </div>
+
+            </div>
+
+        </div><!-- end container -->
+    </header>
+     <!-- ----------------------- Setting Section Start ----------------------- -->
+     <section class="settings-section">
+        <div class="container">
+
+          <div class="settings-section__wrapper">
+            <div class="search-input__wrapper">
+              <img
+                src="./assets/icons/home.svg"
+                alt="home"
+                class="search-input__icon"
+              />
+              <input type="text" class="search-input" placeholder="Search..." />
+            </div>
+            <button class="settings-section__button">
+              <img
+                src="./assets/icons/status.svg"
+                alt="status"
+                class="status-icon"
+              />
+              Status
+            </button>
+            <button class="settings-section__button">
+              <img src="./assets/icons/price.svg" alt="status" class="price-icon" />
+              Price
+            </button>
+            <div class="settings-section__button advanced">
+              <button class="settings-section__button">
+                <img
+                  src="./assets/icons/setting-lines.svg"
+                  alt="status"
+                  class="settings-icon"
+                />
+                Advanced
+              </button>
+             <!-- --------------------------------- -->
+              <div class="advanced-block none">
+                <div class="advanced-block__header">
+                  <div class="advanced-block__item">
+                      <p class="advenced-block__title">Address</p>
+                      <div class="advanced-block__form">
+                        <form action="#" method="post">
+                          <input type="text" name="country" placeholder="Country">
+                          <input type="text" name="region" placeholder="Region">
+                          <input type="text" name="city" placeholder="City">
+                          <input type="number" name="zip-code" placeholder="Zip code">
+                        </form>
+                      </div>
+                  </div>
+
+                  <div class="advanced-block__item">
+                    <p class="advenced-block__title">Apartment info</p>
+                    <div class="advanced-block__form">
+                      <form action="#" method="post">
+                        <input type="number" name="rooms" placeholder="Rooms">
+                        <input type="number" name="size" placeholder="Size">
+                        <input type="number" name="sort" placeholder="Sort">
+                      </form>
+                    </div>
+                  </div>
+
+                  <div class="advanced-block__item">  
+                    <p class="advenced-block__title"> Price</p>                  
+                    <div class="advanced-block__form">
+                      <form action="#" method="post">
+                        <input type="number" name="min-price" placeholder="Min price">
+                        <input type="number" name="max-price" placeholder="Max price">
+                      </form>
+                    </div>
+                  </div>
+                </div><!-- end advanced-block__header -->
+                <div class="advanced-block__footer">
+                  <button class="advenced__cancel">Cancel</button>
+                  <button class="advenced__cancel" type="submit">Submit</button>
+                </div><!-- end advanced-block__footer -->
+              </div><!-- end advanced-block -->
+
+            </div><!-- end settings-section__button advanced -->
+
+            <!-- ---------------------------- -->
+            <button class="settings-section__search-button">
+              <img
+                src="./assets/icons/search.svg"
+                alt="search"
+                class="search-icon"
+              />
+              Search
+            </button>
+         </div>
+        </div><!-- end container -->
+      </section>
+      <!-- ----------------------- Setting Section End ----------------------- -->
+
+    <!-- ----------------------- Hero Section Start ----------------------- -->
+    <section class="hero">
+         <!-- =================================== 1 =================================== -->
+          <div class="hero__wrapper hero-bg_once">
+            <div class="hero__content">
+
+                  <h1 class="hero__title">Skyper Pool Partment</h1>
+                  <p class="hero__description">112 Glenwood Ave Hyde Park, Boston, MA</p>
+                  <div class="hero__icons">
+                    <div class="hero__icon">
+                      <img src="./assets/icons/bed.svg" alt="bed" />
+                      <span>4 beds</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/bath.svg" alt="bath" />
+                      <span>5 baths</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/car.svg" alt="garage" />
+                      <span>1 garage</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/ruler.svg" alt="ruler" />
+                      <span>1200 Sq Ft</span>
+                    </div>
+                  </div>
+                  <h4 class="hero__price">$5,250/mo</h4>
+                  <button class="hero__btn">Read more</button>
+              </div><!-- /hero__content -->  
+          </div><!-- /hero__wrapper -->   
+          
+          <!-- =================================== 2 =================================== -->
+          <div class="hero__wrapper hero-bg_twice">
+            <div class="hero__content">
+                <h1 class="hero__title">Skyper Pool Partment</h1>
+                <p class="hero__description">112 Glenwood Ave Hyde Park, Boston, MA</p>
+                <div class="hero__icons">
+                  <div class="hero__icon">
+                    <img src="./assets/icons/bed.svg" alt="bed" />
+                    <span>4 beds</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/bath.svg" alt="bath" />
+                    <span>3 baths</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/car.svg" alt="garage" />
+                    <span>1 garage</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/ruler.svg" alt="ruler" />
+                    <span>1100 Sq Ft</span>
+                  </div>
+                </div>
+
+                <h4 class="hero__price">$4,350/mo</h4>
+                <button class="hero__btn">Read more</button>
+            </div><!-- /hero__content -->  
+          </div><!-- /hero__wrapper -->   
+
+          <!-- =================================== 3 =================================== -->
+          <div class="hero__wrapper hero-bg_thrice">
+            <div class="hero__content">
+                <h1 class="hero__title">Skyper Pool Partment</h1>
+                <p class="hero__description">112 Glenwood Ave Hyde Park, Boston, MA</p>
+                <div class="hero__icons">
+                  <div class="hero__icon">
+                    <img src="./assets/icons/bed.svg" alt="bed" />
+                    <span>7 beds</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/bath.svg" alt="bath" />
+                    <span>6 baths</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/car.svg" alt="garage" />
+                    <span>2 garage</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/ruler.svg" alt="ruler" />
+                    <span>1500 Sq Ft</span>
+                  </div>
+                </div>
+    
+                <h4 class="hero__price">$6,250/mo</h4>
+                <button class="hero__btn">Read more</button>
+            </div><!-- /hero__content -->  
+        </div><!-- /hero__wrapper -->  
+
+    </section>
+
+    <div class="container">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque mollitia sit corporis eius? Aperiam illum dolorum consequatur sit libero nihil excepturi repellat at architecto distinctio ipsa repellendus ipsam vitae enim aliquid animi delectus, id, tempora aspernatur necessitatibus natus? Veniam fugit maxime consectetur corrupti! Doloremque facilis ut iusto quasi, odio repudiandae veritatis non quidem odit velit, temporibus facere repellat, suscipit nisi laboriosam perspiciatis porro magnam. Tempora voluptates laudantium repudiandae architecto voluptatem, accusantium necessitatibus quos corporis reiciendis maiores quisquam voluptate molestiae vitae! Error exercitationem similique vero eveniet est, quia alias repellendus quam! Temporibus dolorum expedita aperiam deserunt quasi recusandae laudantium doloremque quia illum culpa qui quos, omnis veritatis minus, suscipit eaque soluta amet sit animi? Repellat ad fugit quibusdam quisquam, dolore eos id aliquid corrupti voluptatem sit odit perferendis deserunt praesentium ratione sint itaque reiciendis, placeat alias quis eius. Obcaecati iusto iste nulla. Eaque dignissimos molestias excepturi magnam, adipisci sapiente incidunt sed, eos eveniet magni reprehenderit corrupti minima? Suscipit dolorum mollitia voluptate natus aliquid minus, quis neque amet quam ducimus tempora delectus, dolores totam. Itaque eos explicabo dolorem laboriosam, perferendis beatae ab iste a facilis id aliquam? Perferendis consequatur sapiente distinctio quo ex mollitia maxime repellendus ea. Excepturi quos perferendis a quaerat? Saepe reiciendis, repellendus a praesentium animi veniam aperiam eveniet ipsam harum rem exercitationem ipsa veritatis quibusdam obcaecati nulla iste repudiandae vitae recusandae voluptatem suscipit reprehenderit nam. Cupiditate, molestias quia facere corrupti cumque natus quo veritatis, at nesciunt ex soluta. Rem dolor quo ducimus possimus corporis cum, ratione enim corrupti rerum. Quam aliquam voluptatem debitis dolore reprehenderit? Porro sunt consequatur suscipit possimus molestiae ullam aliquam minus sed nostrum ipsam quam sapiente praesentium, animi delectus, dolores aliquid dolor obcaecati nobis dicta numquam quibusdam voluptatum incidunt magnam at! Beatae facere error quia, eligendi sint numquam odit vero ex illum fugit laboriosam officiis laborum magnam voluptatem impedit. Illum quo vel doloremque odit accusantium dolorum ducimus repellendus, dolores veritatis perspiciatis aliquid, ab blanditiis. Facilis, ducimus suscipit. Repudiandae sunt vero deserunt. Nobis magnam quidem perferendis minus qui tenetur, ut sapiente, sed, nisi voluptate architecto totam? Iste laudantium, blanditiis quaerat repellat dolorem quidem ab amet at sequi quia? Similique perspiciatis, deleniti quaerat rerum aliquid fuga, amet non modi quia consequatur beatae eaque magnam iure quibusdam corrupti aspernatur ipsa repellat sit consequuntur, praesentium cupiditate ullam omnis. Officia quia velit tenetur officiis amet doloribus, aspernatur reiciendis libero! Impedit eos recusandae quod quo non fugit officiis molestias et, asperiores vitae qui sint amet exercitationem deserunt fugiat illum distinctio eum! Rem iusto odio deleniti ipsum rerum provident hic expedita laborum voluptate eveniet dignissimos eius facere voluptates reiciendis quae impedit, laudantium ipsam ratione sit corporis sequi commodi suscipit nisi. Veritatis, natus aut? Numquam fugiat non, quaerat quod beatae molestiae dicta ullam deserunt tempore repellat molestias facere cum ex explicabo asperiores vitae accusantium. Doloribus quo, deleniti tenetur dolore aliquam non, dignissimos harum explicabo sapiente enim facere necessitatibus, excepturi iure eaque recusandae dolor nisi unde veritatis illo? Consequatur magnam a voluptates tempora, sed molestias quibusdam sint numquam eos saepe, maxime atque facilis et, veritatis provident ullam odio veniam temporibus fuga officiis ut minus quidem vitae. Asperiores et quos voluptas facere hic sapiente maiores, assumenda unde deserunt perferendis omnis soluta nesciunt debitis quis blanditiis iusto possimus? Aliquid eum, ipsum quas earum voluptatibus inventore commodi vero, recusandae laboriosam tenetur possimus quasi similique velit minima iusto. Quo est minima reprehenderit nam amet earum, deleniti possimus architecto eaque. Hic nesciunt temporibus ducimus voluptatibus impedit sapiente iusto neque autem distinctio doloremque, nisi dolorem ut, est corporis eius soluta. Praesentium in aperiam omnis itaque! Facere fuga ullam adipisci consequuntur eius minima et odio, ipsa quidem. Fugiat numquam soluta similique accusantium mollitia, repellendus at provident, minima atque maiores ullam! Neque cum obcaecati praesentium veniam. Expedita id, quam in aut nam magni officia itaque veniam eum hic? Velit itaque dolorem saepe vitae nostrum aliquam est. Accusamus molestias harum vero sapiente placeat pariatur amet earum vitae quidem reiciendis explicabo excepturi eos deserunt, recusandae numquam quos commodi quaerat, eius blanditiis ab officia quod! In, tenetur? Eos aliquid explicabo obcaecati vero sunt cupiditate, aut impedit quibusdam rem exercitationem, hic non. Nisi culpa, nam explicabo inventore temporibus voluptate laboriosam sapiente similique sequi ratione ducimus enim ipsa quisquam totam quod vero magnam repellendus dolorum animi, aspernatur hic molestias. Id iusto ad tempora, eos animi labore ipsam, assumenda magni, architecto rem cupiditate hic et voluptatibus nihil consequuntur obcaecati aspernatur! Numquam facilis, earum dolores nulla asperiores perspiciatis repellendus! Repellat dolor voluptates iure cupiditate dolorem cum quo optio, accusantium totam error officia ut quaerat vel nulla debitis asperiores, deleniti perferendis voluptatum, beatae facilis magni ipsa aperiam dolorum! At voluptatibus dolor laudantium, aliquam aperiam accusantium dicta facilis sed porro laboriosam atque aliquid modi amet blanditiis exercitationem ipsa deleniti nostrum dolores fugiat in suscipit. Quos, tempora? Nobis, aliquid eos! Error nihil unde illo quam ipsum non, perspiciatis autem necessitatibus magni ratione inventore nam dolorem dolorum natus quisquam nostrum praesentium. Dolorum quisquam rem ex corrupti molestiae, aliquid eos, vel nihil odio odit at hic nisi illum fuga fugit saepe ipsum soluta ab culpa deleniti cumque. Dolorum alias id quia doloribus dicta repellat dolorem facere, fuga sapiente cupiditate libero consequuntur modi eveniet? Expedita omnis animi repellat assumenda ratione id laudantium error cum, molestiae eius vel? Iste minus ut deserunt, perferendis pariatur repudiandae dolorum voluptas adipisci sint temporibus numquam placeat? Ea eos accusantium facilis neque ipsum sit quaerat, quod facere, sunt eius eaque culpa tenetur tempore porro id in libero suscipit, voluptatum labore voluptatibus? Libero pariatur sint neque distinctio exercitationem fugiat harum nostrum laboriosam voluptas debitis a dignissimos, perferendis veniam animi quam tenetur vero quos aut. Consequatur rem, enim alias ipsam tempora sapiente ut architecto asperiores numquam assumenda odit nisi repellendus doloremque dolores delectus error possimus fuga! Ab veniam sit nobis ipsa aliquam ea dolorem, assumenda reprehenderit nemo itaque reiciendis repellendus quaerat ducimus cupiditate voluptatem enim repudiandae deleniti blanditiis aperiam? Laboriosam aut tempora tempore corrupti distinctio assumenda quos at autem libero, eligendi accusamus molestias ullam odit voluptatibus odio dicta doloremque repudiandae optio, reprehenderit eaque sit eius voluptatum officiis. Inventore adipisci perspiciatis ducimus eligendi, obcaecati totam.
+    </div>
+    <!-- ----------------------- Hero Section End ----------------------- -->
+
+    <script type="text/javascript" src="./assets/js/code.jquery.com_jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="./assets/js/code.jquery.com_jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
