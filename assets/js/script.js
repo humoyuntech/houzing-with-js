@@ -60,6 +60,6 @@ advancedBlockFooter.addEventListener("click", (e)=>{
 $('.card__block').slick({
     slidesToShow: 3,
     slidesToScroll: 3,
-    arrows: false,
-    dots: false
+    arrows: true,
+
 });
